@@ -30,19 +30,19 @@ public class Main {
         System.out.println("Результат: " + result);
         // в условии задачи сказано, что нужно вывести 
         // 1, 8, 10, 11 и 24 символы (нумерация с 1).
-        System.out.print(result.charAt(2));
+        System.out.print(result.charAt(0));
+        System.out.print(result.charAt(7));
         System.out.print(result.charAt(9));
-        System.out.print(result.charAt(11));
-        System.out.print(result.charAt(12));
-        System.out.print(result.charAt(25));
+        System.out.print(result.charAt(10));
+        System.out.print(result.charAt(23));
      }
 }
 ```
 Output:
 ```
 Результат: JAVA APPLICATIONS ARE TYPICALLY COMPILED TO BYTECODE THAT CAN RUN ON ANY JAVA VIRTUAL MACHINE REGARDLESS OF THE UNDERLYING COMPUTER ARCHITECTURE
-VIATI
+JPICY
 ```
 
 ## Правильный ответ
-__VIATI__
+__JPICY__
